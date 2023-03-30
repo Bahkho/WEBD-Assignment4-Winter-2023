@@ -16,7 +16,7 @@
 /* Column Styles */
 
 article {
-   columns: 260px 2; /* sets column width to 260px and column count to 2 */
+   columns: 260px; /* sets column width to 260px and column count to 2 */
    column-gap: 20px; /* sets gap between columns to 20px */
    column-rule: 1px solid rgb(154, 64, 31); /* adds dividing line between columns */
    widows: 2;
@@ -24,6 +24,6 @@ article {
  }
  
  article h1 {
-   grid-column: 1 / span 2;
+   column-span: all;
  }
  
