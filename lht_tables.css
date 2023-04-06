@@ -82,7 +82,7 @@
     table-layout: fixed;
   }
 
-  /* 17. Style rule for headings and data cells */
+  /* Style rule for headings and data cells */
   table th,
   table td {
     border: 1px solid gray;
@@ -94,7 +94,7 @@
     word-wrap: break-word;
   }
 
-  /* 18. Style rule for data cells */
+  /* Style rule for data cells */
   table td {
     background-color: rgba(171, 171, 171, 0.6);
     color: rgb(11, 12, 145);
